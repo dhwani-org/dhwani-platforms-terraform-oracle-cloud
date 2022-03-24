@@ -17,7 +17,7 @@ resource "oci_core_instance" "free_instance0" {
   shape               = var.instance_shape
 
   shape_config {
-    ocpus = var.instance_ocpus
+    ocpus         = var.instance_ocpus
     memory_in_gbs = var.instance_shape_config_memory_in_gbs
   }
 
@@ -45,7 +45,7 @@ resource "oci_core_instance" "free_instance1" {
   shape               = var.instance_shape
 
   shape_config {
-    ocpus = 1
+    ocpus         = 1
     memory_in_gbs = 6
   }
 

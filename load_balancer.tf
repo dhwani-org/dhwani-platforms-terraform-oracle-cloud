@@ -99,9 +99,9 @@ resource "tls_self_signed_cert" "example" {
 
   subject {
     organization = "Oracle"
-    country = "US"
-    locality = "Austin"
-    province = "TX"
+    country      = "US"
+    locality     = "Austin"
+    province     = "TX"
   }
 
   validity_period_hours = 8760 # 1 year
